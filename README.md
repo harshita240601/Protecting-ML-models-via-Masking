@@ -7,6 +7,7 @@ The growing shift of ML models to edge devices like surveillance cameras to dire
 
 # Objective
 Performing sensitivity analysis of weights which helps in ranking them based on their influence on the neural network’s prediction by measuring changes in output when specific weights are perturbed. Then apply the most suitable masking technique on the higher ranked weights.
+![Logo](firstlayer.jpg "First Layer Architecture")
 
 # Conclusion
 The current work I have done so far is to understand how the power side channel attacks hamper the security of edge based ML devices. The thorough survey of defense techniques employed till date to protect the critical parameters of the neural network drew my attention towards unexplored technique of masking the weights of the model instead of inputs. Most importantly masking the partial weights, as masking all weights leads to huge overhead. In order to decide which weights to be masked, I ranked them using several techniques. Then, after discovering various masking techniques and picking the most suitable one for my idea, I proposed two architectures of the masking procedure based on the experimental analysis and specific layers of the model.
