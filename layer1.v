@@ -16,9 +16,7 @@ module layer #(
     input reg [WIDTH-1:0] w9 [INPUT_SIZE-1:0],
     input reg [WIDTH-1:0] w10 [INPUT_SIZE-1:0],
 
-    input reg [WIDTH-1:0] inputs [INPUT_SIZE-1:0],
-
-    output reg [WIDTH-1:0] outputs [OUTPUT_SIZE-1:0];
+ 
 
 );
 
